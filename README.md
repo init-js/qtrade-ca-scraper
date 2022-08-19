@@ -1,2 +1,1 @@
-# qtrade-ca-scraper
-QTrade.ca Scraper
+# qtrude-ca-soup
