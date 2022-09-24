@@ -1,0 +1,1 @@
+QTRADE_BASE_URL = "https://www.qtrade.ca"
