@@ -1,23 +1,23 @@
 # qtrove
 
-Qtrove is a python package offering programmatic access to retrieve information
-from their accounts on qtrade.ca. This software is not affiliated in any way
-with qtrade.ca or its affiliates.
+Qtrove is a python package offering programmatic access to qtrade.ca accounts.
+This software is not affiliated in any way with qtrade.ca or its affiliates.
 
 There is no published API for qtrade.ca at the time of this writing, so this
-software retrieves the information by scraping the website. This has shortcomings
-of course, one of which being that it is prone to breaking if the website changes.
+software pulls data from website content. We can expect some breakage as the
+website changes.
 
 Features Supported
 -------------------
 
 - Two-factor Auth prompt
+- (in progress) Account details / Acccounts listing (in progress)
+- (in progress) Account contents (Cash, Securities, Portfolio Value)
+
 
 Feature Roadmap
 -------------------
 
-- Account details / Acccounts listing (in progress)
-- Account contents (Cash, Securities, Portfolio Value)
 - Store credentials in password-protected file
 - Skip OTP ("remember this computer")
 - Buy ETFs
